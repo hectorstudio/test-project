@@ -1,22 +1,39 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <section class="web-app-body">
+    <div class="container">
+      <div class="navigation sidebar"></div>
+      <AppBody />
+    </div>
+  </section>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppBody from './Containers/Main.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AppBody
   }
 }
 </script>
 
-<style>
+<style lang="scss">
+$body-color: #2b2424;
+section {
+  width: 100%;
+  .container {
+    width: 1440px;
+    background-color: $body-color;
+    margin: 0 auto;
+    display: flex;
+  }
+  &.web-app-body {
+    .navigation {
+      width: 301px;
+    }
+  }
+} 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

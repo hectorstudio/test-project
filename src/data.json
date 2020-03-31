@@ -1,0 +1,107 @@
+{
+  "id":47,
+  "title":"cool stuff",
+  "description":null,
+  "public":true,
+  "collaborative":false,
+  "admin_ids":[
+     2
+  ],
+  "possibilities":[
+     {
+        "id":56,
+        "title":"Community Bike Ride! Social Distancing In Motion.",
+        "slug":"Community-Bike-Ride-Social-Distancing-In-Motion-56",
+        "start_time":"2020-03-30T22:00:00.000Z",
+        "end_time":null,
+        "price":null,
+        "ages":null,
+        "event_url":"https://www.facebook.com/events/198564171427600/",
+        "image_url":"https://scontent.fhel4-1.fna.fbcdn.net/v/t1.0-0/p200x200/89853132_3134459753285889_544956149280014336_o.jpg?_nc_cat=107\u0026_nc_sid=b386c4\u0026_nc_ohc=4G3LYYZXsrsAX_wy4pa\u0026_nc_ht=scontent.fhel4-1.fna\u0026_nc_tp=6\u0026oh=551bd069056b632a6e39d06d9641943d\u0026oe=5EA53F46",
+        "location":"Zoom",
+        "url":"https://www.thingadoo.com/events/Community-Bike-Ride-Social-Distancing-In-Motion-56",
+        "event_mode":"Virtual",
+        "user_id":2
+     }
+  ],
+  "resources":[
+     {
+        "id":15,
+        "title":"Nuxt Universal SSR Deployment to Heroku — includes connecting to an API and debugging Vuetify - YouTube",
+        "description":"It’s easy to deploy your Nuxt app… if you haven’t touched it since using `nuxt-create-app`. Once you start adding that pesky code, things get more difficult....",
+        "slug":"Nuxt-Universal-SSR-Deployment-to-Heroku--includes-connecting-to-an-API-and-debugging-Vuetify--YouTube-15",
+        "url_attachments":[
+           {
+              "id":11,
+              "url":"https://www.youtube.com/watch?v=nngsKhTb2BA",
+              "title":"Nuxt Universal SSR Deployment to Heroku — includes connecting to an API and debugging Vuetify - YouTube",
+              "description":"It’s easy to deploy your Nuxt app… if you haven’t touched it since using `nuxt-create-app`. Once you start adding that pesky code, things get more difficult....",
+              "image_url":"https://i.ytimg.com/vi/nngsKhTb2BA/maxresdefault.jpg",
+              "link_type":"video",
+              "video_id":"nngsKhTb2BA",
+              "created_at":"2020-03-24T07:19:06.223Z",
+              "updated_at":"2020-03-24T07:19:06.223Z"
+           }
+        ],
+        "url":"https://www.thingadoo.com/resources/Nuxt-Universal-SSR-Deployment-to-Heroku--includes-connecting-to-an-API-and-debugging-Vuetify--YouTube-15",
+        "snippet":"It’s easy to deploy your Nuxt app… if you haven’t touched it since using `nuxt-create-app`. Once ...",
+        "user_id":1
+     },
+     {
+        "id":10,
+        "title":"Sound Tribe Sector 9 Live at Canopy Club on 2018-09-20 : Free Download, Borrow, and Streaming : Internet Archive",
+        "description":"Rise Above Get Loud, Frequencies D\u0026amp;B, Frequencies 2, Frequencies 3, Real \u0026amp; Imagined, Golden Gate, The Rabble, Move My Peeps, MOD, Tap-In, Vapors, Love...\n\nwoohooo",
+        "slug":"Sound-Tribe-Sector-9-Live-at-Canopy-Club-on-20180920--Free-Download-Borrow-and-Streaming--Internet-Archive-10",
+        "url_attachments":[
+           {
+              "id":20,
+              "url":"https://www.worldometers.info/coronavirus/",
+              "title":"Coronavirus Update (Live): 737,589 Cases and 35,000 Deaths from COVID-19 Virus Outbreak - Worldometer",
+              "description":"",
+              "image_url":"http://www.worldometers.info/img/worldometers-fb.jpg",
+              "link_type":"website",
+              "video_id":"",
+              "created_at":"2020-03-30T12:43:52.683Z",
+              "updated_at":"2020-03-30T12:43:52.683Z"
+           }
+        ],
+        "url":"https://www.thingadoo.com/resources/Sound-Tribe-Sector-9-Live-at-Canopy-Club-on-20180920--Free-Download-Borrow-and-Streaming--Internet-Archive-10",
+        "snippet":"Rise Above Get Loud, Frequencies D\u0026amp;B, Frequencies 2, Frequencies 3, Real \u0026amp; Imagined, Gold...",
+        "user_id":2
+     },
+     {
+        "id":14,
+        "title":"This is a test5 - Google Docs",
+        "description":"This is a test5",
+        "slug":"This-is-a-test5--Google-Docs-14",
+        "url_attachments":[
+           {
+              "id":10,
+              "url":"https://docs.google.com/document/d/16MmcdGvbQio5ZuGlRVtFzCsK4KCZntKJmiH1BXX7QZM/edit",
+              "title":"This is a test5 - Google Docs",
+              "description":"This is a test5",
+              "image_url":"https://lh6.googleusercontent.com/DA4DUVU7i5qhxNyyvnTmLaba3K68f0yblipZYYo3of8rICRf1W2fZl5F7ffXSOjs7NpdScJ00w=w1200-h630-p",
+              "link_type":"document",
+              "video_id":"",
+              "created_at":"2020-03-24T06:49:26.542Z",
+              "updated_at":"2020-03-24T06:49:26.542Z"
+           }
+        ],
+        "url":"https://www.thingadoo.com/resources/This-is-a-test5--Google-Docs-14",
+        "snippet":"This is a test5",
+        "user_id":1
+     }
+  ],
+  "collections":[
+     {
+        "id":1,
+        "title":"Bookmarks",
+        "slug":"Bookmarks-1"
+     }
+  ],
+  "image_url":null,
+  "slug":"cool-stuff-47",
+  "collection_suggestions":[
+  ],
+  "url":"https://www.thingadoo.com/collections/cool-stuff-47"
+}
