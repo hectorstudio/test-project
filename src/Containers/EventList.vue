@@ -13,7 +13,7 @@
       </div>
       <div class="header-image"></div>
     </div>
-    <related-resources></related-resources>
+    <related-resources :resources="data.resources"></related-resources>
     <div class="event-list-body">
       <div class="event-list-title">
         Upcoming Events
@@ -40,7 +40,7 @@ export default {
       type: Object,
       required: true
     }
-  }
+  },
 };
 </script>
 

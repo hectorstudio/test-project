@@ -21,7 +21,6 @@ export default {
 <style lang="scss">
 $body-color: #2b2424;
 section {
-  width: 100%;
   .container {
     width: 1440px;
     background-color: $body-color;

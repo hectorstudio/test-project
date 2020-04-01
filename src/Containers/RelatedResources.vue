@@ -5,14 +5,7 @@
     </div>
     <div class="resource-items">
       <VueSlickCarousel v-bind="settings">
-        <RelatedItem
-          title="Top 10 Virtual Museums"
-          detail="Check out the best museums that are now streaming online"
-        />
-        <RelatedItem
-          title="Top 10 Virtual Museums1"
-          detail="Check out the best museums that are now streaming online"
-        />
+        <RelatedItem v-for="(item, index) in resources" :key="index" :resource="item" />
       </VueSlickCarousel>
     </div>
   </div>
@@ -32,17 +25,26 @@ export default {
     VueSlickCarousel,
     RelatedItem
   },
+  props:{
+    resources: {
+      type: Array,
+      required: true
+    }
+  },
   data() {
     return {
       settings: {
         arrows: false,
         dots: false,
-        centerPadding: "20px",
-        focusOnSelect: true,
-        infinite: true,
+        // centerPadding: "20px",
+        // focusOnSelect: true,
+        // infinite: true,
         slidesToShow: 2,
       }
     }
+  },
+  mounted() {
+    console.log(this.resources);
   }
 };
 </script>

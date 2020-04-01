@@ -53,7 +53,9 @@ $semi-bold: 600;
 $bold: 700;
 
 .application-body {
-  width: 100%;
+  box-sizing: border-box;
+  left: 301px;
+  max-width: 1139px;
   background-color: #312a2a;
   padding: 0px 40px;
   .app-header {
