@@ -4,7 +4,7 @@
       <div class="header-detail">
         <div class="header-title">
           <p class="bold">{{data.title}}</p>
-          <p class="regular">{{data.description}}</p>
+          <p class="regular">{{data.slug}}</p>
         </div>
         <div class="header-buttons">
           <Button size="btn-medium" buttonName="Follow" />
@@ -18,7 +18,7 @@
       <div class="event-list-title">
         Upcoming Events
       </div>
-      <EventItem v-for="(item, index) in data.possibilities" :key="index" :data="item"/>
+      <EventItem v-for="(item, index) in data.resources" :key="index" :data="item"/>
     </div>
   </div>
 </template>

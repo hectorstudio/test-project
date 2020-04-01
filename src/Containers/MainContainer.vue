@@ -1,7 +1,7 @@
 <template>
   <div class="main-container">
     <EventList :data="data"/>
-    <EventDetail :data="data.possibilities[0]"/>
+    <EventDetail :data="data.collections[0]"/>
   </div>
 </template>
 

@@ -2,7 +2,7 @@
   <div class="event-item">
     <div class="item-status">
       <p class="large">{{ this.startDay }}</p>
-      <p class="small">{{ this.monthArray[this.startMon] }}</p>
+      <p class="small">{{ this.monthArray[this.startMon-1] }}</p>
       <p class="large"><i class="fa fa-star"></i></p>
     </div>
     <div class="item-detail">
@@ -10,14 +10,14 @@
         {{ data.title }}
       </div>
       <div class="item-schedule">
-        {{ data.start_time }}
+        {{ this.schedule_time }}
       </div>
       <div class="item-address">
-        South Hill Business Campus 950 Danby Rd Horner
+        {{ data.description }}
       </div>
     </div>
     <div class="item-image">
-      <img src="../assets/Image.png" alt="item-image" />
+      <a :href="data.url" target="_blank"><img :src="this.image_url" alt="item-image" /></a>
     </div>
   </div>
 </template>
@@ -35,16 +35,19 @@ export default {
     return {
       startMon: "",
       startDay: 0,
-      monthArray: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+      monthArray: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+      image_url: "",
+      schedule_time: "",
     };
   },
-  created() {},
   mounted() {
-    let date = this.data.start_time;
+    let date = this.data.url_attachments[0].created_at;
     let tempArray = date.split('T');
+    this.schedule_time = tempArray[0];
     tempArray = tempArray[0].split('-');
     this.startDay = parseInt(tempArray[2]);
     this.startMon = parseInt(tempArray[1]);
+    this.image_url = this.data.url_attachments[0].image_url;
   }
 };
 </script>
@@ -107,8 +110,11 @@ $bold: 700;
   .item-image {
     justify-content: center;
     flex: 3;
-    img {
-      width: 100%;
+    a {
+      height: 100%;
+      img {
+        width: 100%;
+      }      
     }
   }
 }

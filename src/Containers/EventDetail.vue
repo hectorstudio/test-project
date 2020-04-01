@@ -6,7 +6,7 @@
         <button class="btn btn-medium primary uppercase height-fit"><i class="fa fa-share-alt"></i> share</button>
       </div>
       <div class="header-detail">
-        {{data.start_time}} {{data.location}}
+        {{data.slug}}
       </div>
       <div class="header-buttons">
         <button class="btn btn-medium">Follow</button>
