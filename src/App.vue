@@ -18,7 +18,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 $body-color: #2b2424;
 section {
   width: 100%;

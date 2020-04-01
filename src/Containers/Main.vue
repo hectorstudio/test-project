@@ -86,7 +86,7 @@ $bold: 700;
       margin: 0px 25px;
       display: flex;
       button {
-        margin: 0px 5px;
+        padding: 0px 5px;
       }
     }
   }
