@@ -47,7 +47,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 $regular: 400;
 $normal: 500;
 $semi-bold: 600;
